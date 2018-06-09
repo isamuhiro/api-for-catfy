@@ -8,3 +8,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::resource('todo', 'TodoController');
 Route::resource('users', 'UserController');
+Route::resource('products', 'ProductController');
